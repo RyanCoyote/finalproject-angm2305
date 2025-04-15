@@ -24,10 +24,13 @@ This will be a simple 'bullet hell' style game in which you control a simple sph
 ## Outcomes
 Ideal Outcome:
 - An ideal outcome would be for this program to have sprites for a player character, an enemy character, and at least 3 different attack patterns for the player to dodge.
+- The player character could be controlled by following the player's mouse OR using arrow keys, with a button enabling/disabling slow player movement.
 - If there is time after the bullet hell system is coded, a simple attacking system can be added for the player to shoot projectiles at a static enemy sprite.
 
 Minimal Viable Outcome:
-- The minimum outcome would be for shapes to be moving down the screen and for them to register a hit when they overlap a circle following the player's mouse.
+- The minimum outcome would be for squares to be moving down the screen in a set pattern constantly.
+- The player character circle follows the player's mouse on the screen.
+- When the player circle overlaps a projectile square, the circle will flash for a second to register that it has been hit.
 
 ## Milestones
 
