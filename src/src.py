@@ -13,11 +13,17 @@ class Projectile():
     def draw(self, surface):
     
 
+class ProjectileTrail():
+
+    def __init__(self, pos, size, life):
+    
 class ProjectilePattern():
 
+    def __init__(self, screen_res):
 
 class PlayerObject():
 
+    def __init(self):
 
 def main():
     pygame.init()
